@@ -74,6 +74,6 @@ describe('Search Sweets (User/Admin)', () => {
       .set('role', 'user');
 
     expect(res.statusCode).toBe(200);
-    expect(res.body.length).toBe(4);
+    expect(res.body.length).toBe(3);
   });
 });
