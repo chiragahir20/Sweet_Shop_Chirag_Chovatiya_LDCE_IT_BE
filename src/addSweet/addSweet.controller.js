@@ -1,4 +1,4 @@
-const Sweet = require('./addSweet.model');
+const Sweet = require('../models/sweet.model');
 
 exports.addSweet = async (req, res) => {
   if (req.headers.role !== 'admin') {

@@ -2,7 +2,7 @@ const request = require('supertest');
 const app = require('../src/app');
 const mongoose = require('mongoose');
 const connectDB = require('../src/db');
-const Sweet = require('../src/addSweet.model');
+const Sweet = require('../src/models/sweet.model');
 
 beforeAll(async () => {
   await connectDB();
